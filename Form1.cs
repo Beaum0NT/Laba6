@@ -39,7 +39,7 @@ namespace SOBAKICH
         {
 
         }
-        private void mnuNew_Click(object sender, EventArgs e)
+        private void mnuNew_Click(object sender, EventArgs e) // кнопка New
         {
             blank frm = new blank();
             frm.DocName = "Документ " + ++openDoc;
@@ -118,7 +118,7 @@ namespace SOBAKICH
             blank frm = (blank)(this.ActiveMdiChild);
             frm.fonts("Calibri");
         }
-        private void impactToolStripMenuItem_Click(object sender, EventArgs e)
+        private void impactToolStripMenuItem_Click(object sender, EventArgs e) 
         {
             blank frm = (blank)(this.ActiveMdiChild);
             frm.fonts("Impact");
@@ -155,7 +155,7 @@ namespace SOBAKICH
             }
         }
 
-        private void mnuSaveAs_Click(object sender, EventArgs e)
+        private void mnuSaveAs_Click(object sender, EventArgs e) // меню сохранения 
         {
             mnuSave.Enabled = true;
             saveFileDialog1.Filter = "Text Files (*.txt)|*.txt|All Files(*.*)|*.*";
