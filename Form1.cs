@@ -101,13 +101,13 @@ namespace SOBAKICH
             blank frm = (blank)(this.ActiveMdiChild);
             frm.FontColor("Purple");
         }
-        private void timesNewRomanToolStripMenuItem_Click(object sender, EventArgs e)
+        private void timesNewRomanToolStripMenuItem_Click(object sender, EventArgs e) 
         {
             blank frm = (blank)(this.ActiveMdiChild);
             frm.fonts("TimesNewRoman");
         }
 
-        private void arialToolStripMenuItem_Click(object sender, EventArgs e)
+        private void arialToolStripMenuItem_Click(object sender, EventArgs e) // добовляем новый шрифт
         {
             blank frm = (blank)(this.ActiveMdiChild);
             frm.fonts("Arial");
