@@ -85,7 +85,7 @@ namespace SOBAKICH
             blank frm = (blank)(this.ActiveMdiChild);
             frm.FontColor("Black");
         }
-        private void greenToolStripMenuItem_Click(object sender, EventArgs e)
+        private void greenToolStripMenuItem_Click(object sender, EventArgs e) // добовляет зеленый цвет
         {
             blank frm = (blank)(this.ActiveMdiChild);
             frm.FontColor("Green");
